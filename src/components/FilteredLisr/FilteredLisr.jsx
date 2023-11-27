@@ -13,7 +13,7 @@ const FilteredLisr = () => {
   // console.log(data);
 
   const emptyNotesData = data?.filter((item) => item.notes === "");
-  console.log(emptyNotesData);
+  // console.log(emptyNotesData);
 
   if (data) {
     // console.log(isNaN(data.length));

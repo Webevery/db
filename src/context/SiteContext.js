@@ -11,7 +11,7 @@ export const SiteProvider = ({ children }) => {
 
   // console.log(filter);
   // console.log(dataLength);
-  console.log(emptyNotes);
+  // console.log(emptyNotes);
 
   return (
     <SiteContext.Provider

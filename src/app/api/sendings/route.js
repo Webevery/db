@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import connect from "@/utils/db";
 import Sending from "@/models/Sending";
-import { getItemsWithEmptyNotes } from "@/app/(pages)/in-line/page";
+// import { getItemsWithEmptyNotes } from "@/app/(pages)/in-line/page";
 
 export const POST = async (request) => {
   const body = await request.json();

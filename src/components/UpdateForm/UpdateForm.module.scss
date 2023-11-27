@@ -1,0 +1,49 @@
+@import "../../styles/variables";
+
+// .wrapper {
+//   width: 100vw;
+//   height: 100vh;
+//   height: calc(100vh - 72px);
+//   padding: 20px;
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: 20px;
+//   position: relative;
+//   @media screen and (min-width: $tablet) {
+//     padding: 40px;
+//     gap: 80px;
+//   }
+// }
+
+.wrapper {
+  max-width: 320px;
+  // position: static;
+  margin-left: auto;
+  margin-right: auto;
+
+  & input,
+  & textarea {
+    width: 100%;
+    padding: 4px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    // position: fixed;
+    width: 320px;
+  }
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-bottom: 32px;
+
+  & button {
+    background-color: green;
+    border-radius: 2px;
+    border: none;
+    padding: 4px;
+  }
+}

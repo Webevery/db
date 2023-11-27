@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+
+.list {
+  display: flex;
+
+  gap: 28px;
+  flex-wrap: wrap;
+  & li {
+    min-width: 280px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(81, 81, 81, 0.5);
+    padding-bottom: 10px;
+
+    & h2 {
+      font-size: 16px;
+    }
+    & p {
+      font-weight: bold;
+      font-size: 12px;
+
+      & span {
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+
+  & svg {
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+    &:nth-child(1) {
+      fill: blue;
+    }
+
+    &:nth-child(2) {
+      fill: red;
+    }
+  }
+}

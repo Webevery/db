@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.inputWrapper {
+  width: 100%;
+  position: relative;
+  & .close {
+    position: absolute;
+    top: 22%;
+    right: 4px;
+    fill: var(--font_color);
+  }
+  & svg {
+    cursor: pointer;
+  }
+}

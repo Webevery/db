@@ -1,0 +1,16 @@
+@import "../../../styles/variables";
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  height: calc(100vh - 72px);
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  position: relative;
+  @media screen and (min-width: $tablet) {
+    padding: 40px;
+    gap: 80px;
+  }
+}

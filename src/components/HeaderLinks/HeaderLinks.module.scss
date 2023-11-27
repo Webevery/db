@@ -1,0 +1,19 @@
+.headerLinks {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+.headerLinks > li {
+  font-weight: 700;
+  color: var(--font_weight);
+}
+.headerLinks > li:hover,
+.headerLinks > li:focus,
+.activeLink {
+  color: aqua;
+  color: rgba(81, 81, 81, 0.5);
+  scale: 1.1;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}

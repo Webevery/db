@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeTitle {
+  background-clip: text;
+  background-image: linear-gradient(
+    to right,
+    #09f1b8,
+    #00a2ff,
+    #ff00d2,
+    #fed90f
+  );
+  color: rgba(252, 252, 252, 0.9);
+  font-size: 56px;
+  font-weight: bold;
+  padding: calc(1em / 16);
+  -webkit-text-stroke-color: transparent;
+  -webkit-text-stroke-width: 8px;
+  text-align: center;
+}

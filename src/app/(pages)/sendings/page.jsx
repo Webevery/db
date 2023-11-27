@@ -7,8 +7,8 @@ const Emails = () => {
   return (
     <>
       <div className={styles.wrapper}>
-        <PostForm />
-        <SendingList />
+        {/* <PostForm />
+        <SendingList /> */}
       </div>
     </>
   );

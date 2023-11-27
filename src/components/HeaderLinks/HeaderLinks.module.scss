@@ -3,10 +3,12 @@
   gap: 16px;
   justify-content: center;
 }
-.headerLinks > li {
-  font-weight: 700;
+.headerLinks li {
+  font-size: 12px;
+  font-weight: 400;
   color: var(--font_weight);
 }
+
 .headerLinks > li:hover,
 .headerLinks > li:focus,
 .activeLink {

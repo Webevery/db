@@ -8,6 +8,7 @@ const Emails = () => {
     <>
       <div className={styles.wrapper}>
         <PostForm />
+
         <SendingList />
       </div>
     </>
